@@ -9,7 +9,6 @@ import LoginCtrl from './LoginCtrl';
 import { LoginForm } from './LoginForm';
 import { ChangePassword } from './ChangePassword';
 import { Branding } from 'app/core/components/Branding/Branding';
-import { Footer } from 'app/core/components/Footer/Footer';
 
 export const LoginPage: FC = () => {
   return (
@@ -63,7 +62,6 @@ export const LoginPage: FC = () => {
 
         <div className="clearfix" />
       </div>
-      <Footer />
     </Branding.LoginBackground>
   );
 };

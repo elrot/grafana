@@ -46,7 +46,7 @@ RUN ./node_modules/.bin/grunt build
 # Final container
 FROM alpine:3.10
 
-LABEL maintainer="Grafana team <hello@grafana.com>"
+LABEL maintainer="iGrid team <contact@igrid.tech>"
 
 ARG GF_UID="472"
 ARG GF_GID="472"

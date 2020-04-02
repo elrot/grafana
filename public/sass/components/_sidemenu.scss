@@ -200,6 +200,7 @@ li.sidemenu-org-switcher {
 }
 
 .sidemenu__logo {
+  background: #1979df;
   display: block;
   padding: 6px 14px 6px 9px;
   min-height: $navbarHeight;
@@ -207,14 +208,14 @@ li.sidemenu-org-switcher {
   height: $navbarHeight - 1px;
 
   &:hover {
-    background: lightOrDark($gray33, $gray25);
+    background: #1979df;
   }
 
   img {
-    width: 30px;
+    width: 40px;
     position: relative;
-    top: 5px;
-    left: 4px;
+    top: 0px;
+    left: 0px;
   }
 }
 
